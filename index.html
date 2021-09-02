@@ -1,0 +1,92 @@
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>CGPA Calculator -- Javascript</title>
+
+  <meta name="description" content="cgpa calculator">
+  <meta property="og:title" content="Unique page title - My Site">
+  <meta property="og:description" content="cgpa calculator">
+  <meta property="og:image" content="https://www.mywebsite.com/image.jpg">
+  <meta property="og:image:alt" content="Image description">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:url" content="https://www.mywebsite.com/page">
+  <link rel="canonical" href="https://www.mywebsite.com/page">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/my.webmanifest">
+  <meta name="theme-color" content="#FF00FF">
+
+  <link rel="stylesheet" href="./assets/css/all.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- your content -->
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card d-flex">
+        <div class="card-body">
+          <h5 class="card-title">SGPA Calculator </h5>
+         
+            <div class="mb-3">
+              <label for="subjectOne" class="form-label">Subject 1</label>
+              <input type="text" class="form-control" id="subjectOne" required>
+              <div class="invalid-feedback">
+                Please provide your number.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="subjectTwo" class="form-label">Subject 2</label>
+              <input type="text" class="form-control" id="subjectTwo" required>
+              <div class="invalid-feedback">
+                Please provide your number.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="subjectThree" class="form-label">Subject 3</label>
+              <input type="text" class="form-control" id="subjectThree" required>
+              <div class="invalid-feedback">
+                Please provide your number.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="subjectFour" class="form-label">Subject 4</label>
+              <input type="text" class="form-control" id="subjectFour" required>
+              <div class="invalid-feedback">
+                Please provide your number.
+              </div>
+            </div>
+
+            <div class="alert alert-primary" role="alert">
+              <div class="result-show" id="resultShow">
+                Your Result 
+              </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary block-btn" onclick="Calculation()">Submit</button>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/plugin.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
